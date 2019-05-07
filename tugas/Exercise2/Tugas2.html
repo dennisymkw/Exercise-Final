@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+
+        <table>
+            <tr><h3 style="text-align:center;">Javascript Calculator</h3> </tr>
+            <tr>
+                <form action="">
+                <td colspan="4"><input id="field" type="text" value="0" readonly></td>
+            </form>
+            </tr>
+            <tr>
+                <td colspan="4"><button class="button samadengan" onclick="samadengan()">=</button></td>
+                
+            </tr>
+            <tr>
+                <td><button class="button" onclick="angka('1')"><b>1</b></button></td>
+                <td><button class="button" onclick="angka('2')"><b>2</b></button></td>
+                <td><button class="button" onclick="angka('3')"><b>3</b></button></td>
+                <td><button class="button buttonorange" onclick="operator('+')"><b>+</b></button></td>
+            </tr>
+            <tr>
+                <td><button class="button" onclick="angka('4')"><b>4</b></button></td>
+                <td><button class="button" onclick="angka('5')"><b>5</b></button></td>
+                <td><button class="button" onclick="angka('6')"><b>6</b></button></td>
+                <td><button class="button buttonorange" onclick="operator('-')"><b>-</b></button></td>
+            </tr>
+            <tr> 
+                <td><button class="button" onclick="angka('6')"><b>7</b></button></td>
+                <td><button class="button" onclick="angka('6')"><b>8</b></button></td>
+                <td><button class="button" onclick="angka('6')"><b>9</b></button></td>
+                <td><button class="button buttonorange" onclick="operator('*')"><b>*</b></button></td>
+            </tr>
+            <tr> 
+                <td><button class="button buttonred" onclick="hapus()"><b>C</b></button></td>
+                <td><button class="button" onclick="angka('0')"><b>0</b></button></td>
+                <td><button class="button" onclick="titik()"><b>.</b></button></td>
+                <td><button class="button buttonorange" onclick="operator('/')"><b>/</b></button></td>
+            </tr>
+        </table>
+    
+</div>  
+    <script src="script.js"></script>
+</body>
+</html>

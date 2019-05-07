@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.button {
+    background-color: grey;   /* Green */
+    width: 50px;
+    /* border: ; */
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius : 8px;
+  }
+
+#field{
+    padding: 10px;
+    width: 260px;
+    border-style: solid;
+    text-align: right;
+    font-size: 16px;
+}
+
+.samadengan{
+    padding: 8px 0px;
+    width: 100%;
+    background-color: orange;
+}
+
+.main {
+    background-color: #00FF90FF;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    box-shadow: 5px 4px 5px #A5A5A5FF;
+   }
+
+.buttonnum{
+ background-color: darkslategrey;
+}
+
+.buttonred{
+    background-color:firebrick;
+}
+
+.buttonorange{
+    background-color: orange;
+}
+
+.buttonbagi{
+    background-color: blueviolet;
+}
+
+.buttonkali{
+    background-color: blueviolet;
+}
+
+.buttonbiru{
+    background-color:blueviolet;
+}
+
+.buttonkurang{
+    background-color:blueviolet;
+}
+
