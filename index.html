@@ -69,12 +69,12 @@
 		</div>
 
 	</nav>
-	<section id="home" data-spy="home" data-target="home">
+	<section id="home" data-spy="home" data-target="home"  data-aos="fade-left">
 		<div class="carousel-content">
 			<h2>Final Exercise Javascript Development Course</h2>
 			<marquee>Facebook DevC X Hacktiv8</marquee>
 		</div>
-		<div data-aos="fade-left" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
 			<ol class="carousel-indicators">
 				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -119,14 +119,14 @@
 	<br>
 	<br>
 	<br>	
-	<div class="centertitle">
+	<div class="centertitle"  data-aos="fade-left" >
 		<hr>
 		<h3>Berikut hal-hal yang saya kerjakan selama mengikuti program "Javascript Development Course"</h3>
 		<hr>
 	</div>
 
 
-	<section id="tugas1" data-spy="tugas1" data-target="tugas1">
+	<section id="tugas1" data-spy="tugas1" data-target="tugas1"  data-aos="fade-left" >
 		<h4 class="centertitle card-title text-dark">Tugas 1 - Personal Website</h4>
 		<div class="container-fluid">
 			<div class="row">
@@ -138,7 +138,7 @@
 		</div>
 	</section>	
 
-	<section id="tugas2" data-spy="tugas2" data-target="tugas2">
+	<section id="tugas2" data-spy="tugas2" data-target="tugas2"  data-aos="fade-left" >
 		<h4 class="centertitle card-title text-dark">Tugas 2 - Kalkulator Javascript</h4>
 		<div class="container-fluid">
 			<div class="row">
@@ -149,7 +149,7 @@
 		</div>
 	</section>
 
-	<section id="tugas3" data-spy="tugas3" data-target="tugas3">
+	<section id="tugas3" data-spy="tugas3" data-target="tugas3"  data-aos="fade-left" >
 		<h4 class="card-title text-dark">Tugas 3 - Live Search menggunakan data JSON dari swapi.co</h4>
 		<div class="container-fluid">
 			<div class="row">
@@ -159,7 +159,7 @@
 		</div>
 	</section>
 
-	<section id="epilogue" data-spy="epilogue" data-target="epilogue">
+	<section id="epilogue" data-spy="epilogue" data-target="epilogue"  data-aos="fade-left" >
 		<div class="card bg-dark text-white text-center">
 			<img class="card-img center" src="img/7.jpg" alt="Card image" style="width: 70%; height: 70%;">
 			<div class="card-img-overlay">
@@ -186,7 +186,7 @@
 		</div>
 	</section>
 
-	<section id="contactme" data-spy="contactme" data-target="contactme">
+	<section id="contactme" data-spy="contactme" data-target="contactme"  data-aos="fade-left" >
 		<div class="card border-secondary mb-3 text-center">
 
 			<img src="img/6.jpg" width="100%" height="ml-auto">
@@ -270,7 +270,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <script>
-  	AOS.init();
+
 
   	$('#btnformspree').on('click', function(){
   		document.getElementById('email').value = "";
@@ -329,6 +329,8 @@
 
     	return false;
     });
+
+      	AOS.init();
 </script>
 </body>
 </html>
